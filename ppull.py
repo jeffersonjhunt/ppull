@@ -58,7 +58,7 @@ class EventPuller():
 
 def main():
     
-    parser = argparse.ArgumentParser(prog='Invoke-ExamInstance') 
+    parser = argparse.ArgumentParser(prog='ppull') 
     parser.add_argument('--debug', action='store_true', help='debug logging') 
     parser.add_argument('--filename', required=True, help='filename to create, xlsx is added automatically') 
     parser.add_argument('--event_id', required=True, help='event id to pull from practiscore.com') 
